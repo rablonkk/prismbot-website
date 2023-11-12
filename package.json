@@ -1,0 +1,29 @@
+{
+  "homepage": "https://prismbot.site",
+  "name": "prismbot-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "npx serve@latest out",
+    "export": "next export",
+    "lint": "eslint ./ --ext \"js, jsx\""
+  },
+  "author": "Shushi & rablonkk'",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.49.0",
+    "eslint-config-sushi": "^1.0.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  }
+}
