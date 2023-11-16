@@ -34,7 +34,7 @@ export default function Page({ children }) {
               <ul className="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-normal md:border-0">
                 <li><a href="/" className="block py-2 pl-3 pr-4 md:p-0">Home</a></li>
                 <li><a href="/socials" className="block py-2 pl-3 pr-4 md:p-0">Development Team</a></li>
-                <li><a href="https://status.prismbot.site/" className="block py-2 pl-3 pr-4 md:p-0">Status page</a></li>
+                <li><a href="https://status.prismbot.site/" className="block py-2 pl-3 pr-4 md:p-0">Service Status</a></li>
                 <li><a href="https://discord.com/oauth2/authorize?client_id=1070824661845295134&scope=bot%20applications.commands" className="block py-2 pl-3 pr-4 md:p-0">PrismBot Canary</a></li>
                 <li><a href="https://terms.prismbot.site/" className="block py-2 pl-3 pr-4 md:p-0">Terms of Service</a></li>
                 <li><a href="https://discord.com/invite/WWuA9gduSJ" className="block py-2 pl-3 pr-4 md:p-0">Support</a></li>
