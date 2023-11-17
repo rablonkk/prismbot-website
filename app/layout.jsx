@@ -12,8 +12,7 @@ export default function Page({ children }) {
     <html lang="pt-br">
       <head>
         <link rel="icon" as="image" href="/favicon.ico" />
-        <title>PrismBot | a simple music bot for Discord</title>
-        <meta name="description" content="If you are a music lover looking for a seamless music experience, Prism is definitely an ideal choice."/>
+        <title>PrismBot | A simple music bot for Discord</title>
         <meta name="theme-color" content="#eb1757"/>
       </head>
       <body>

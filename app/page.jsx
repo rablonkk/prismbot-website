@@ -12,7 +12,6 @@ export default function homePage() {
     <>
       <html>
         <head>
-          <title>PrismBot | The best music bot for Discord</title>
           <meta name="description" content="If you are a music lover looking for a seamless music experience, Prism is definitely an ideal choice." />
         </head>
       </html>
@@ -26,7 +25,7 @@ export default function homePage() {
               'WebkitTextFillColor': 'transparent',
             }} className="font-black text-9xl max-md:text-6xl">PrismBot</h1>
           </span>
-          <p className="text-center text-xl max-md:text-sm">If you are a music lover looking for a seamless music experience, Prism is definitely an ideal choice.</p>
+          <p className="text-center text-xl max-md:text-sm">If you are a music lover looking for a seamless music experience, Prism is definitely an ideal choice. </p>
 
           <button className="mt-10 pt-2 pb-2 pr-10 pl-10 bg-[#FB029E] rounded-3xl text-white font-semibold" style={{
             'background': '-webkit-linear-gradient(100deg, #52293a 30%, #FB029E 100%)',
