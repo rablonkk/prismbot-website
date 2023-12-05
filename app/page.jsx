@@ -35,10 +35,10 @@ export default function homePage() {
         </div>
       </main>
 
-      {data.topTracks && data.users && data.guilds && <ul className="mt-14 mb-10 w-full flex flex-wrap items-center justify-center gap-8">
+      {data.topTracks && <ul className="mt-14 mb-10 w-full flex flex-wrap items-center justify-center gap-8">
         <li className="bg-[#F9F9F9] rounded-3xl h-26 w-72 px-3 py-5 shadow-lg">
           <h1 className="font-bold text-2xl mb-2">👤 Users</h1>
-          <p className="text-1xl pl-5">+{(data.users).toLocaleString()}</p>
+          <p className="text-1xl pl-5">+270.000</p>
         </li>
 
         <li className="bg-[#F9F9F9] rounded-3xl h-42 w-72 px-3 py-5 shadow-lg">
@@ -48,7 +48,7 @@ export default function homePage() {
 
         <li className="bg-[#F9F9F9] rounded-3xl h-26 w-72 px-3 py-5 shadow-lg">
           <h1 className="font-bold text-2xl mb-2">👥 Guilds</h1>
-          <p className="text-1xl pl-5">+{(data.guilds).toLocaleString()}</p>
+          <p className="text-1xl pl-5">+2.800</p>
         </li>
       </ul>
       }
