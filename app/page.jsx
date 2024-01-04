@@ -19,7 +19,7 @@ export default function homePage() {
               'WebkitTextFillColor': 'transparent',
             }} className="font-black text-9xl max-md:text-6xl">PrismBot</h1>
           </span>
-          <p className="text-center text-xl max-md:text-sm w-2/3">Prism is an amazing music bot project that was created with the aim of offering users an unprecedented music experience. With the ability to play music from YouTube and SoundCloud, Prism becomes an indispensable tool for those who want to listen to the music they love without having to switch between different platforms.</p>
+          <p className="text-center text-xl max-md:text-sm">If you are a music lover looking for a seamless music experience, Prism is definitely an ideal choice.</p>
 
           <button className="mt-10 pt-2 pb-2 pr-10 pl-10 bg-[#FB029E] rounded-3xl text-white font-semibold" style={{
             'background': '-webkit-linear-gradient(100deg, #52293a 30%, #FB029E 100%)',
@@ -31,15 +31,15 @@ export default function homePage() {
       <ul className="mt-16 mb-10 w-full flex flex-wrap items-center justify-center gap-8">
         <li className="bg-[#F9F9F9] rounded-3xl h-26 w-64 px-3 py-5 shadow-lg">
           <h1 className="font-bold text-2xl mb-2">👤 Users</h1>
-          <p className="text-2xl pl-5">+200,000</p>
+          <p className="text-1xl pl-5">+200,000</p>
         </li>
         <li className="bg-[#F9F9F9] rounded-3xl h-26 w-64 px-3 py-5 shadow-lg">
           <h1 className="font-bold text-2xl mb-2">🤖 Interactions</h1>
-          <p className="text-2xl pl-5">+600,000</p>
+          <p className="text-1xl pl-5">+600,000</p>
         </li>
         <li className="bg-[#F9F9F9] rounded-3xl h-26 w-64 px-3 py-5 shadow-lg">
           <h1 className="font-bold text-2xl mb-2">👥 Guilds</h1>
-          <p className="text-2xl pl-5">+2,000</p>
+          <p className="text-1xl pl-5">+2,000</p>
         </li>
       </ul>
     </>
